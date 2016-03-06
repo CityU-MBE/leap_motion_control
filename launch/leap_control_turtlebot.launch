@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="leap_motion_control" type="leap_motion_control" name="leap_output_vel">
+        <remap from="/cmd_vel"  to="/mobile_base/commands/velocity" /> 
+    </node>
+</launch>

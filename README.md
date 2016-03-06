@@ -4,4 +4,4 @@
 
 2. Change the path of include and link library of LeapSDK in CMakeLists.txt.
 
-3. Catikin_make the ROS node in ws.
+3. Run catkin_make to build the ROS node in ROS workspace.
